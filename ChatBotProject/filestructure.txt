@@ -1,0 +1,21 @@
+chatbot-app/
+├── backend/
+│   ├── app.py           # Main Flask app
+│   ├── pdf_processor.py # Handles PDF extraction logic
+│   ├── gemini_handler.py # Handles interactions with Gemini API
+│   ├── .env             # API keys and other secrets
+│   ├── requirements.txt  # Python dependencies
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── ChatInput.js   # Component for user input
+│   │   │   ├── ChatDisplay.js  # Component to display messages
+│   │   │   ├── FileUpload.js # Component for file uploading
+│   │   ├── App.js        # Main React component
+│   │   ├── index.js      # Entry point
+│   │   ├── App.css
+│   ├── public/
+│   │   └── index.html    # HTML file
+│   ├── package.json      # Project config
+│   ├── yarn.lock        # dependency locker
+└── README.md           # Basic project description
